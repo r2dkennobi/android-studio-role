@@ -1,0 +1,8 @@
+---
+# defaults file for android-studio
+install_dir: "{{ ansible_env.HOME }}/.android"
+studio_version: "3.0.1.0"
+studio_build: "171.4443003"
+studio_checksum: "sha256:ad7110ed2ffc662b7a13efa5064390c8e8e74815d8c688351bd8829331852acf"
+zip_name: "android-studio-ide-{{ studio_build }}-linux.zip"
+download_url: "https://dl.google.com/dl/android/studio/ide-zips/{{ studio_version }}/{{ zip_name }}"
