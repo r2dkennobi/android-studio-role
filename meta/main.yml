@@ -3,7 +3,7 @@ galaxy_info:
   description: Android Studio
   company: theoldhermit
 
-  license: BSD
+  license: GPL
 
   min_ansible_version: 2.1
 
