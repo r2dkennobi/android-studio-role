@@ -4,12 +4,14 @@ python: "2.7"
 
 before_install:
   - sudo apt-get update -qq
+  - sudo pip install pexpect
 
 install:
   - pip install ansible
   - "{ echo '[defaults]'; echo 'roles_path = ../'; } >> ansible.cfg"
 
 script:
+  - "ansible-galaxy install -r requirements.yaml --force"
   - "ansible-playbook -i tests/inventory tests/test.yml --syntax-check"
   - "ansible-playbook -i tests/inventory tests/test.yml --connection=local"
   - source ~/.bashrc
