@@ -1,3 +1,8 @@
+---
+dependencies:
+  - src: git+https://github.com/r2dkennobi/android-sdk-tools-role.git
+    version: 30998b7
+
 galaxy_info:
   author: r2dkennobi
   description: Android Studio
