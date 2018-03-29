@@ -30,5 +30,4 @@
     dest: "{{ ansible_env.HOME }}/.bashrc"
     content: |
       export PATH=$PATH:{{ install_dir }}/android-studio/bin
-      export PATH=$PATH:{{ install_dir }}/Android/Sdk/platform-tools
     backup: yes
