@@ -18,4 +18,4 @@ Example Playbook
 License
 -------
 
-GPL
+GPLv3

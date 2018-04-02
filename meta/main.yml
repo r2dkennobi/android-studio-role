@@ -1,14 +1,14 @@
 ---
 dependencies:
   - src: git+https://github.com/r2dkennobi/android-sdk-tools-role.git
-    version: 30998b7
+    version: 1.0
 
 galaxy_info:
   author: r2dkennobi
   description: Android Studio
   company: theoldhermit
 
-  license: GPL
+  license: GPLv3
 
   min_ansible_version: 2.1
 
